@@ -1,3 +1,25 @@
+function renderGame(){
+    let HTML = '';
+    document.querySelectorAll('body').innerHTML = HTML;
+
+    HTML+=`
+    <div id="game">
+        <div id="block">
+
+        </div>
+        <div id="hole">
+
+        </div>
+        <div id="character">
+
+        </div>
+    </div>
+    `;
+
+return  document.querySelector('body').innerHTML = HTML;
+
+}
+renderGame();
 let block = document.getElementById("block");
 let hole = document. getElementById("hole");
 let character = document.getElementById("character");
