@@ -1,0 +1,70 @@
+body{
+    background-image:  url('../img/menu_background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;   
+    font-family: 'Grandstander', cursive;
+    margin: 0;
+    color: #000;
+    text-align: center;
+}
+    .main{
+        display: inline-block;
+    }
+    .main > h2{
+        display: inline-block;
+        width: 100%;
+        text-transform: uppercase;
+        line-height: 40px;
+        margin-bottom: 0;
+        font-weight: 800;
+    }
+    .main > h5{
+        display: inline-block;
+        width: 100%;
+        text-transform: uppercase;
+        margin: 10px 0;
+        font-size: 12px;
+    }
+    .main > p{
+        display: inline-block;
+        width: 50%;
+        font-weight: 500;
+    }
+
+    .button {
+        background-color: #366577;
+        color: #000;
+        border: 2px solid #555555;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        border-radius:20%;
+    }
+    
+    .button:hover {
+        background-color: #162635;
+        color: #fff;
+    }
+    
+    @keyframes bounce {
+        0% {-webkit-transform: scale(1.1,.9);
+            transform: scale(1.1,.9);}
+       50% { -webkit-transform: scale(.9,1.1) translateY(-.5rem)}
+       70% { -webkit-transform: scale(1);
+             transform: scale(1);}
+    }
+    .bounce {
+      display: inline-block;
+      animation: bounce 0.7s ease 2s infinite alternate;
+    }
+    
+    .bounce:hover {
+      animation: none;
+    }   

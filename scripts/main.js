@@ -17,3 +17,6 @@ renderMenu();
 document.getElementById("play").addEventListener("click", function() {
     location.href = "game.html"; 
 });
+document.getElementById("howToPlay").addEventListener("click", function() {
+    location.href = "howtoPlay.html"; 
+});
