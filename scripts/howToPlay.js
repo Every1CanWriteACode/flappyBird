@@ -20,5 +20,5 @@ return  document.querySelector('body').innerHTML = HTML;
 renderHowToPlay();
 
 document.getElementById("toMenu").addEventListener("click", function() {
-    location.href = "./../index.html"; 
+    location.href = "index.html"; 
 });
