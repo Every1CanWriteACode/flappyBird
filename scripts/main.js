@@ -18,5 +18,5 @@ document.getElementById("play").addEventListener("click", function() {
     location.href = "game.html"; 
 });
 document.getElementById("howToPlay").addEventListener("click", function() {
-    location.href = "/howToPlay/index.html"; 
+    location.href = "flappybird/howToPlay/index.html"; 
 });
